@@ -1,0 +1,346 @@
+                                                                @media screen and (max-width: 1180px) {
+                                                                    html {
+                                                                        font-size: 90%;
+                                                                    }
+                                                                    .container {
+                                                                        width: 100%;
+                                                                    }
+                                                                    .wrapper p {
+                                                                        padding-left: 10px;
+                                                                        padding-right: 10px;
+                                                                    }
+                                                                    .servise {
+                                                                        width: 97%;
+                                                                        margin-left: 6px;
+                                                                        margin-right: 0px;
+                                                                    }
+                                                                    .servise_item {
+                                                                        max-width: 29%;
+                                                                        margin-bottom: 40px;
+                                                                    }
+                                                                    .info_gallery {
+                                                                        margin: 0 auto;
+                                                                        display: flex;
+                                                                        flex-wrap: wrap;
+                                                                        max-width: 100%;
+                                                                    }
+                                                                    .gallery_photo {
+                                                                        width: 47%;
+                                                                        margin-left: 10px;
+                                                                        padding-right: 14px;
+                                                                    }
+                                                                    #myBtnContainer {
+                                                                        width: 100%;
+                                                                        display: flex;
+                                                                        justify-content: space-around;
+                                                                    }
+                                                                    .row {
+                                                                        max-width: 97%;
+                                                                        margin-left: 10px;
+                                                                        margin-top: 25px;
+                                                                    }
+                                                                    .colum {
+                                                                        max-width: 32%;
+                                                                        margin-bottom: 20px;
+                                                                    }
+                                                                    .picture_gallery {
+                                                                        height: auto;
+                                                                        margin: auto;
+                                                                    }
+                                                                    .address-five {
+                                                                        width: 438px;
+                                                                        margin-left: 0px;
+                                                                    }
+                                                                    .form {
+                                                                        width: 450px;
+                                                                        margin: 0 auto;
+                                                                    }
+                                                                    .form_area {
+                                                                        width: 450px;
+                                                                        margin: 0 auto;
+                                                                    }
+                                                                    .sign_in {}
+                                                                    .conect {
+                                                                        max-width: 100%;
+                                                                        padding-left: 55px;
+                                                                        margin: 0 auto;
+                                                                    }
+                                                                    .conect_wrepper {
+                                                                        max-width: 22%;
+                                                                        margin-right: 8px;
+                                                                        height: auto;
+                                                                    }
+                                                                    .abouts_paragraph {
+                                                                        font-size: 14px;
+                                                                        line-height: 24px;
+                                                                    }
+                                                                }
+                                                                
+                                                                @media screen and (max-width: 785px) {
+                                                                    html {
+                                                                        font-size: 80%;
+                                                                    }
+                                                                    .block {
+                                                                        padding-left: 10px;
+                                                                    }
+                                                                    .foinni {
+                                                                        width: 100px;
+                                                                    }
+                                                                    .nav__link {
+                                                                        line-height: 24px;
+                                                                        font-size: 12px;
+                                                                    }
+                                                                    .link {
+                                                                        padding-right: 9px;
+                                                                    }
+                                                                    .text {
+                                                                        font-size: 16px;
+                                                                        padding-left: 22px;
+                                                                        padding-right: 22px;
+                                                                    }
+                                                                    .servise {
+                                                                        margin: 0 auto;
+                                                                        max-width: 77%;
+                                                                        margin-bottom: 600px;
+                                                                        text-align: center;
+                                                                    }
+                                                                    .servise_item {}
+                                                                    .blog {
+                                                                        font-size: 20px;
+                                                                        padding-left: 5px;
+                                                                        padding-right: 5px;
+                                                                    }
+                                                                    .paragraph {
+                                                                        font-size: 11px;
+                                                                        padding-left: 3px;
+                                                                        padding-right: 3px;
+                                                                    }
+                                                                    .info_gallery {
+                                                                        width: 87%;
+                                                                        text-align: center;
+                                                                    }
+                                                                    .gallery_photo {
+                                                                        margin: 0 auto;
+                                                                        width: 48%;
+                                                                        margin-left: 10px;
+                                                                    }
+                                                                    .about_form {
+                                                                        width: 60%;
+                                                                    }
+                                                                    .row {
+                                                                        width: 87%;
+                                                                        margin: 0 auto;
+                                                                    }
+                                                                    #myBtnContainer {
+                                                                        width: 50%;
+                                                                        display: flex;
+                                                                        justify-content: space-around;
+                                                                    }
+                                                                    .btn {
+                                                                        font-size: 14px;
+                                                                    }
+                                                                    .content {
+                                                                        margin: 5px;
+                                                                    }
+                                                                    .column {
+                                                                        margin-bottom: 8px;
+                                                                    }
+                                                                    .hidden {
+                                                                        margin: 0 auto;
+                                                                        font-size: 12px;
+                                                                        max-width: 80%;
+                                                                        padding-bottom: 20px;
+                                                                    }
+                                                                    .button {
+                                                                        max-width: 150px;
+                                                                        font-size: 15px;
+                                                                        margin-bottom: 30px;
+                                                                    }
+                                                                    .headling {
+                                                                        font-size: 25px;
+                                                                        padding-bottom: 40px;
+                                                                    }
+                                                                    .conect {
+                                                                        max-width: 77%;
+                                                                    }
+                                                                    .conect_product {
+                                                                        margin-bottom: 390px;
+                                                                    }
+                                                                    .conect_plans {
+                                                                        margin-bottom: 10px;
+                                                                        height: 60px;
+                                                                    }
+                                                                    .plans {
+                                                                        font-size: 22px;
+                                                                    }
+                                                                    .plans_info {
+                                                                        font-size: 12px;
+                                                                        line-height: 24px;
+                                                                    }
+                                                                    .info_btn {
+                                                                        width: 75px;
+                                                                        height: 33px;
+                                                                        font-size: 12px;
+                                                                        line-height: 14px;
+                                                                        margin-bottom: 0px;
+                                                                    }
+                                                                    .conect_wrepper {
+                                                                        margin-bottom: 15px;
+                                                                    }
+                                                                    .sing_heding {
+                                                                        font-size: 22px;
+                                                                    }
+                                                                    .form {
+                                                                        text-align: center;
+                                                                        width: 438px;
+                                                                    }
+                                                                    .form_text {
+                                                                        width: 350px;
+                                                                        margin-right: 0;
+                                                                    }
+                                                                    .form_area {
+                                                                        text-align: center;
+                                                                        width: 438px;
+                                                                    }
+                                                                    .address-five {
+                                                                        width: 350px;
+                                                                        height: 115px;
+                                                                    }
+                                                                    .form_block {
+                                                                        margin: 0 auto;
+                                                                        width: 67%;
+                                                                        margin-top: 10px;
+                                                                    }
+                                                                    .form_button {
+                                                                        width: 150px;
+                                                                        font-size: 15px;
+                                                                    }
+                                                                    .abouts_paragraph {
+                                                                        font-size: 12px;
+                                                                        line-height: 22px;
+                                                                    }
+                                                                    .detalis_paragraph {
+                                                                        color: #8f8e91;
+                                                                        font-size: 12px;
+                                                                        line-height: 22px;
+                                                                    }
+                                                                    .detalis_paragraph_one {
+                                                                        font-size: 12px;
+                                                                        line-height: 22px;
+                                                                    }
+                                                                    .icon_heding {
+                                                                        font-size: 16px;
+                                                                    }
+                                                                }
+                                                                
+                                                                @media screen and (max-width: 600px) {
+                                                                    html {
+                                                                        font-size: 60%;
+                                                                    }
+                                                                    .nav {
+                                                                        margin-right: 20px;
+                                                                    }
+                                                                    .nav__list {
+                                                                        display: block;
+                                                                    }
+                                                                    .link {
+                                                                        padding-right: 9px;
+                                                                    }
+                                                                    h1 {
+                                                                        font-size: 24px;
+                                                                        line-height: 26px;
+                                                                    }
+                                                                    .text {
+                                                                        font-size: 12px;
+                                                                    }
+                                                                    .page {
+                                                                        margin-top: 28px;
+                                                                    }
+                                                                    .wrapper {
+                                                                        margin-bottom: 20px;
+                                                                    }
+                                                                    .wrapper h2 {
+                                                                        font-size: 24px;
+                                                                    }
+                                                                    .wrapper p {
+                                                                        font-size: 14px;
+                                                                    }
+                                                                    .servise {
+                                                                        padding-top: 20px;
+                                                                    }
+                                                                    .servise_item {}
+                                                                    .paragraph {
+                                                                        line-height: 1;
+                                                                    }
+                                                                    .blog {
+                                                                        font-size: 14px;
+                                                                    }
+                                                                    .info_people {
+                                                                        font-size: 20px;
+                                                                    }
+                                                                    .info_gallery {
+                                                                        width: 72%;
+                                                                    }
+                                                                    .headling {
+                                                                        font-size: 18px;
+                                                                    }
+                                                                    #myBtnContainer {
+                                                                        width: 30%;
+                                                                    }
+                                                                    .btn {
+                                                                        font-size: 12px;
+                                                                    }
+                                                                    .row {
+                                                                        width: 70%;
+                                                                    }
+                                                                    .column {
+                                                                        width: 100%;
+                                                                    }
+                                                                    .navi {
+                                                                        width: 60%;
+                                                                    }
+                                                                    .conect {
+                                                                        width: 96%;
+                                                                        margin: 0;
+                                                                        text-align: center;
+                                                                    }
+                                                                    .conect_product {
+                                                                        margin-bottom: 320px;
+                                                                    }
+                                                                    .conect_wrepper {
+                                                                        width: 100%;
+                                                                    }
+                                                                    .plans_info {
+                                                                        font-size: 12px;
+                                                                        line-height: 18px;
+                                                                        margin-bottom: 5px;
+                                                                    }
+                                                                    .info_btn {
+                                                                        font-size: 12px;
+                                                                        line-height: 12px;
+                                                                        width: 55px;
+                                                                        height: auto;
+                                                                    }
+                                                                    .plans {
+                                                                        font-size: 18px;
+                                                                    }
+                                                                    .form {
+                                                                        width: 357px;
+                                                                        text-align: center;
+                                                                    }
+                                                                    .form_area {
+                                                                        width: 357px;
+                                                                    }
+                                                                    .abouts {
+                                                                        height: 870px;
+                                                                    }
+                                                                    .abouts_wrraper {
+                                                                        height: 870px;
+                                                                    }
+                                                                    .abouts_heding {
+                                                                        font-size: 16px;
+                                                                    }
+                                                                    .abouts_us {
+                                                                        width: 50%;
+                                                                    }
+                                                                }
