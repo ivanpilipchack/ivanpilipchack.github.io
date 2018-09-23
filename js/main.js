@@ -1,4 +1,4 @@
-/*filterSelection("all") // Execute the function and show all columns
+filterSelection("all") // Execute the function and show all columns
 function filterSelection(c) {
     var x, i;
     x = document.getElementsByClassName("column");
@@ -45,22 +45,29 @@ for (var i = 0; i < btns.length; i++) {
         this.className += " active";
     });
 };
-*/
+
 $(document).ready(function() {
+    //fadeMenu
+    var $hide = $('.nav__list');
+    var $linck = $('.nav__link');
+    $hide.hide().slideDown(800);
+    $linck.hide().each(function(index) {
+        $(this).delay(index * 1000).fadeIn(1000).delay(2000).addClass('active');
+    });
+
+    //end
+
     $(".button").click(function() {
         $(".hidden").fadeToggle(2000);
     });
 
-});
-//animate
-$(document).ready(function() {
-    $(".info_btn").click(function() {
-        $(".plans_info").animate({
-            height: 'toggle'
-        });
+
+    //animate
+
+    $(".info_btn").click(function(event) {
+        $(event.currentTarget).siblings('.plans_info').slideToggle(1000);
     });
-});
-$(document).ready(function() {
+
     $('.form_button').mouseenter(function() {
         $('.form_area').slideToggle(2000);
     });
@@ -70,8 +77,8 @@ $(document).ready(function() {
             fontSize: 20,
             duration: 2000,
 
+
+
         });
-
     });
-
 });

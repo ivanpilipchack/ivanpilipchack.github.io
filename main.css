@@ -130,6 +130,11 @@ span {
     margin-bottom: 80px;
 }
 
+.active {
+    color: #ffd400;
+    text-shadow: 0 0 10px #ffd400;
+}
+
 .wrapper h2 {
     text-align: center;
     color: #454546;
@@ -275,6 +280,11 @@ span {
     width: 100%;
 }
 
+.picture_gallery:hover {
+    transform: scale(1.5);
+    transition: 2s;
+}
+
 .hidden {
     display: none;
     text-align: center;
@@ -416,7 +426,7 @@ span {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.52);
     width: 100%;
 }
 
