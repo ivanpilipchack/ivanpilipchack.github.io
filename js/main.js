@@ -52,11 +52,46 @@ $(document).ready(function() {
     var $linck = $('.nav__link');
     $hide.hide().slideDown(800);
     $linck.hide().each(function(index) {
-        $(this).delay(index * 1000).fadeIn(1000).delay(2000).addClass('active');
+        $(this).delay(index * 500).fadeIn(500, function() {
+            $(this).delay(1000).addClass('active')
+        });
     });
 
     //end
-
+    // logo fixed
+    $(function(scroll) {
+        var scrollLogo = scroll('.foinni');
+        scroll(window).scroll(function() {
+            scrollLogo['fade' + (scroll(this).scrollTop() > 500 ? 'Out' : 'In')](800);
+        })
+    });
+    //end
+    //textAnimated
+    $(function() {
+            $('.text').textillate({
+                loop: true,
+                minDisplayTime: 500,
+                initialDelay: 0,
+                autoStart: true,
+                inEffects: [],
+                outEffects: ['fadeOutUpBig'],
+                in: {
+                    effect: 'fadeInUpBig',
+                    delayScale: 1.5,
+                    delay: 50,
+                    sync: false,
+                    shuffle: false
+                },
+                out: {
+                    effect: 'fadeOutUpBig',
+                    delayScale: 1.5,
+                    delay: 50,
+                    sync: false,
+                    shuffle: false,
+                }
+            });
+        })
+        //end
     $(".button").click(function() {
         $(".hidden").fadeToggle(2000);
     });
@@ -65,8 +100,19 @@ $(document).ready(function() {
     //animate
 
     $(".info_btn").click(function(event) {
-        $(event.currentTarget).siblings('.plans_info').slideToggle(1000);
+        $(event.currentTarget).siblings('.plans_info').slideToggle(1000, 'linear', function() {
+            $(event.currentTarget).siblings('.close').delay(500).show();
+            $(this).addClass('click');
+            $(this).next().addClass('click').text('Open');
+        });
     });
+    const $closeOrder = $('.close');
+    const $btnOpen = $('.info_btn');
+    $closeOrder.on('click', () => {
+        $(event.currentTarget).addClass('closeOut').fadeOut(500);
+        $btnOpen.text('Order Now');
+        $(event.currentTarget).siblings('.plans_info').fadeOut(800);
+    })
 
     $('.form_button').mouseenter(function() {
         $('.form_area').slideToggle(2000);

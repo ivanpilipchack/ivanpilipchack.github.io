@@ -49,11 +49,19 @@ header {
     float: right;
 }
 
+.foinni {
+    position: fixed;
+}
+
 .nav__list {
+    background: none;
     display: flex;
     list-style: none;
-    margin: 0;
+    margin: 0px;
     padding-right: 4px;
+    border: 1px solid #1dde85;
+    border-radius: 20px;
+    box-shadow: 0 0 30px #1dde85;
 }
 
 .link {
@@ -65,7 +73,6 @@ header {
 .link:hover {
     color: #1dde85;
     transition: 0.5s;
-    border-bottom: 1px solid #1dde85;
 }
 
 .nav__link {
@@ -84,6 +91,7 @@ hr {
     margin-top: 88px;
     height: 1px;
     background-color: #8f8e91;
+    box-shadow: 0 0 30px #ffd400;
     opacity: 0.5;
 }
 
@@ -122,6 +130,29 @@ span {
     font-weight: bold;
 }
 
+.close {
+    display: none;
+    position: relative;
+    cursor: pointer;
+    float: right;
+    left: 7px;
+    bottom: 7px;
+    font-size: 20px;
+    background: #16aa58;
+    padding: 2px 7px;
+    border-radius: 50%;
+    color: #ffffff;
+}
+
+.closeOut {
+    background: #fff;
+    color: red;
+    border: 1px solid red;
+    font-size: 16px;
+    transition: 0.3s;
+    transform: translate(13px);
+}
+
 #page {
     margin-top: 128px;
 }
@@ -131,8 +162,13 @@ span {
 }
 
 .active {
-    color: #ffd400;
-    text-shadow: 0 0 10px #ffd400;
+    color: #fff;
+}
+
+.click {
+    background: #1dde85;
+    box-shadow: 0 0 20px #d1ccb3;
+    border-radius: 10px;
 }
 
 .wrapper h2 {
@@ -311,7 +347,7 @@ span {
 }
 
 .show {
-    display: none;
+    display: block;
 }
 
 .navi {
@@ -372,8 +408,9 @@ span {
 }
 
 .plans_info {
+    display: none;
     text-align: center;
-    color: #8f8e91;
+    color: #e5e1ec;
     font-family: "Roboto - Thin";
     font-size: 14px;
     font-weight: bold;
@@ -382,6 +419,7 @@ span {
 }
 
 .info_btn {
+    outline: none;
     width: 100px;
     height: 40px;
     border: 1px solid #454546;
@@ -406,10 +444,6 @@ span {
 .info_btn:hover {
     background-color: #1dde85;
     color: #fffcf4;
-}
-
-.conect_wrepper:hover {
-    border: 1px solid #1dde85;
 }
 
 .sing_in {
