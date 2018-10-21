@@ -316,9 +316,8 @@ span {
     width: 100%;
 }
 
-.picture_gallery:hover {
-    transform: scale(1.5);
-    transition: 2s;
+.more {
+    display: none;
 }
 
 .hidden {
@@ -346,13 +345,19 @@ span {
     margin-bottom: 100px;
 }
 
+.addButton {
+    box-shadow: 0 0 30px #1dde85;
+    background-color: #fff;
+    color: #1dde85;
+}
+
 .show {
     display: block;
 }
 
 .navi {
     margin: 0 auto;
-    width: 49%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
 }
@@ -364,7 +369,7 @@ span {
     background: #fff;
     color: #8f8e91;
     font-family: "Roboto - Thin";
-    font-size: 14px;
+    font-size: 24px;
     font-weight: bold;
     padding-bottom: 10px;
     margin-bottom: 35px;
@@ -400,11 +405,16 @@ span {
 }
 
 .plans {
+    margin: 22px;
     text-align: center;
     color: #454546;
     font-family: "Roboto Slab - Thin";
     font-size: 36px;
     font-weight: bold;
+}
+
+.good {
+    margin-top: 17px;
 }
 
 .plans_info {
@@ -431,14 +441,23 @@ span {
     margin-bottom: 25px;
 }
 
-.conect_plans:hover {
-    background-color: #1dde85;
+.good {
+    box-shadow: 0 0 20px #16aa58;
+    border-radius: 50%;
+}
+
+.addRotate {
+    transform: rotate(90deg);
     transition: 0.5s;
 }
 
-.conect_plans:hover .plans {
-    color: #fff;
-    transition: 0.5s;
+.addBorder {
+    border: 2px solid #1dde85;
+    box-shadow: 0 0 20px #1dde85;
+}
+
+.addSelect {
+    background-color: #16aa58;
 }
 
 .info_btn:hover {
